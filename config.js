@@ -3,13 +3,13 @@ require("dotenv").config(); // Load environment variables
 module.exports = {
     prefix: process.env.PREFIX || ".", // Command prefix
 
-    ownerName: process.env.OWNER_NAME || "Toxxic-Boy", // Owner name
+    ownerName: process.env.OWNER_NAME || "CHÆOS", // Owner name
 
-    ownerNumber: process.env.OWNER_NUMBER || "2348165846414", // Your WhatsApp number
+    ownerNumber: process.env.OWNER_NUMBER || "2349133691035", // Your WhatsApp number
 
-    sudo: process.env.SUDO ? process.env.SUDO.split(",") : ["2348165846414"," 2347042081220"], // People Who can use the bot even in Private mode
+    sudo: process.env.SUDO ? process.env.SUDO.split(",") : ["2349133691035"], // People Who can use the bot even in Private mode
 
-    mode: process.env.MODE || "public", // Bot mode: 'public' or 'private'
+    mode: process.env.MODE || "private", // Bot mode: 'public' or 'private'
 
     region: process.env.REGION || "Nigeria", // Region
 
@@ -21,9 +21,9 @@ module.exports = {
 
     timeZone: process.env.TIME_ZONE || "Africa/Lagos", // Time zone
 
-    presenceStatus: process.env.PRESENCE_STATUS || "recording", // Bot presence status
+    presenceStatus: process.env.PRESENCE_STATUS || , // Bot presence status
 
-    autoRead: process.env.AUTO_READ === "true", // Auto-read messages (true or false)
+    autoRead: process.env.AUTO_READ === "false", // Auto-read messages (true or false)
 
     autoViewStatus: process.env.AUTO_VIEW_STATUS === "true", // Auto-view statuses (true or false)
 
